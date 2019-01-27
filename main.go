@@ -57,17 +57,6 @@ mainLoop:
 				if tt == html.StartTagToken {
 					table++
 
-					// for {
-					// 	k, v, more := z.TagAttr()
-					// 	fmt.Println(string(k), " ", string(v), " ", more)
-					// 	if !more {
-					// 		break
-					// 	}
-					// 	if strings.ToLower(string(k)) == "id" && strings.ToLower(string(v)) == "ciao"{
-
-					// 	}
-					// }
-
 					dataIndex++
 					//log.Println("[TABLE] ++")
 				} else {
